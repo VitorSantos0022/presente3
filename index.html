@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mensagem para minha amiga</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #f0f8ff;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+        }
+        .container {
+            text-align: center;
+            padding: 20px;
+            background-color: #ffffff;
+            border-radius: 10px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            width: 80%;
+            max-width: 500px;
+        }
+        h1 {
+            color: #2e8b57;
+            font-size: 2.5em;
+        }
+        p {
+            color: #333;
+            font-size: 1.2em;
+            margin-top: 20px;
+        }
+        button {
+            background-color: #2e8b57;
+            color: white;
+            padding: 10px 20px;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+            font-size: 1em;
+            margin-top: 20px;
+        }
+        button:hover {
+            background-color: #3cb371;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="container">
+        <h1>Camarada, Coordenadora Pedagógica!</h1>
+        <p>
+            A sua dedicação e compromisso com a educação fazem toda a diferença na vida de muitas pessoas. 
+            Cada passo que você dá é um exemplo de liderança, paciência e amor pelo que faz. 
+            Sou grato por poder contar com sua amizade e inspiração!
+        </p>
+        <button onclick="mostrarMensagem()">Clique para uma surpresa!</button>
+    </div>
+
+    <script>
+        function mostrarMensagem() {
+            alert('Você é incrível, amiga! Continue fazendo o mundo melhor com seu trabalho!');
+        }
+    </script>
+
+</body>
+</html>
